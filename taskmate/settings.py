@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
-# from decouple import config
+
 import environ
 env = environ.Env()
 environ.Env.read_env()
